@@ -4,7 +4,7 @@ Organizes  old and unused files from MacOS Desktop & Downloads folder
 
 #### Usage: python3 clutter.py
 
-##### Set RECENT variable to the maximum number of seconds since a file has been:
+#### Set RECENT variable to the maximum number of seconds since a file has been:
 - created
 - modified
 - added
@@ -19,15 +19,14 @@ EX:
 - RECENT = 2000000    (3 weeks 2 days)
 - RECENT = 5000000    (2 months)
 
-##### To add directories beyond ~/Desktop and ~/Downloads, add the path to the locations array (from the home directory)
+#### To add directories beyond ~/Desktop and ~/Downloads, add the path to the locations array (from the home directory)
 
 EX:
 - locations = ["Downloads", "Desktop", "Desktop/School"]
 - locations = ["Downloads", "Desktop", "dev"]
 - locations = ["Downloads", "Desktop"]
 
-##### To change the name of the created clutter folder, change:
-CLUTTER_NAME = "Clutter"
+#### To change the name of the created clutter folder, change the CLUTTER_NAME variable:
 
 Ex:
 - CLUTTER_NAME = "Archive"
