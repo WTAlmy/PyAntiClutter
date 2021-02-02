@@ -1,6 +1,6 @@
 ## PyAntiClutter
 Organizes  old and unused files from MacOS Desktop & Downloads folder
-(May be compatible with Windows: untested)
+(May be compatible with Windows)
 
 #### Usage: python3 clutter.py
 
