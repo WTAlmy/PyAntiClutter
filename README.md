@@ -25,3 +25,8 @@ Set RECENT to the maximum number of seconds since a file has been [created, modi
 - CLUTTER_NAME = "Archive"
 - CLUTTER_NAME = "old_stuff"
 ```
+
+#### OS X 10.14+ Security/Compatability Note
+MacOS may give a permissions error when running the script automatically when attempting to modify the Desktop or Downloads folders.
+One possible solution would be to add "cron" to the Desktop/Downloads Folders & Files permission group in System Settings. See:
+- https://osxdaily.com/2020/04/27/fix-cron-permissions-macos-full-disk-access/
